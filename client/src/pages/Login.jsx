@@ -1,9 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="auth">
+      <h1>LOGIN</h1>
+      <form>
+        <input type="text" placeholder="username" />
+        <input type="password" placeholder="password" />
+        <button>Login</button>
+        <p>this is error occure</p>
+        <span>
+          Don't you have an account? <Link to="/register">Register</Link>{" "}
+        </span>
+      </form>
     </div>
   );
 };
