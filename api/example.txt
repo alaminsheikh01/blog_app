@@ -1,0 +1,1 @@
+git remote add origin https://github.com/alaminsheikh01/simple_blog_app.git
