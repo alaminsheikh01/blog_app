@@ -2,9 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h2>footer</h2>
-    </div>
+    <footer>
+      <div className="f-logo">LOGO</div>
+      <span>Made with React and mysql</span>
+    </footer>
   );
 };
 

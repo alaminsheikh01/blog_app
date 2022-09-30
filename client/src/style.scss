@@ -95,5 +95,21 @@ $lightGreen: #b9e7e7;
         }
       }
     }
+
+    // footer
+
+    footer {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: $lightGreen;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .f-logo {
+        height: 50px;
+        align-items: center;
+      }
+    }
   }
 }
