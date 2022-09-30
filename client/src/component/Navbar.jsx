@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        <div className="logo">
+        <div className="logo" style={{ paddingTop: "35px" }}>
           <Link to="/" className="link">
             LOGO
           </Link>
